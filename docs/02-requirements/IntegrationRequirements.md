@@ -12,6 +12,10 @@ Identity, notification, calendar, voice, AI model, knowledge, and healthcare par
 
 Platform services, external providers, administrators, and operations teams.
 
+## Detailed description
+
+This document defines the enterprise healthcare platform baseline for its stated scope. It is read with the SRS and the business foundation, and remains subject to clinical, privacy, security, and operational governance.
+
 ## Requirements
 
 - Integrations shall use authenticated, versioned interfaces and documented ownership.
@@ -28,6 +32,10 @@ Partners expose supported APIs and agree service-level expectations.
 
 No integration may transmit data beyond approved purpose and contractual scope.
 
-## Future considerations
+## Dependencies
+
+This document depends on approved clinical governance, privacy and security policies, and the related requirements in this directory.
+
+## Future enhancements
 
 Support healthcare standards and regional partner adapters.

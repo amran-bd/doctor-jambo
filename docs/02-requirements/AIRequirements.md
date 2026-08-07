@@ -12,6 +12,10 @@ LLM interaction, RAG, vector search, prompts, safety, and human approval.
 
 Patients, doctors, administrators, AI services, reviewers, and agents.
 
+## Detailed description
+
+This document defines the enterprise healthcare platform baseline for its stated scope. It is read with the SRS and the business foundation, and remains subject to clinical, privacy, security, and operational governance.
+
 ## Requirements
 
 - LLM interactions shall identify the task, permitted context, model/version, and safety policy applied.
@@ -41,6 +45,10 @@ Approved knowledge governance and model evaluation processes exist.
 
 AI is assistive and may not make autonomous diagnoses, prescriptions, or emergency determinations.
 
-## Future considerations
+## Dependencies
+
+This document depends on approved clinical governance, privacy and security policies, and the related requirements in this directory.
+
+## Future enhancements
 
 Add model routing, offline evaluation, and market-specific safety policies.

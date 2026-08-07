@@ -12,6 +12,10 @@ Patient, doctor, voice, AI, and administrative journeys.
 
 Patients, doctors, administrators, and supervised agents.
 
+## Detailed description
+
+This document defines the enterprise healthcare platform baseline for its stated scope. It is read with the SRS and the business foundation, and remains subject to clinical, privacy, security, and operational governance.
+
 ## Requirements
 
 - As a patient, I want to register and set my consent preferences so that I control my information.
@@ -39,6 +43,10 @@ Stories are refined with representative users and clinical governance.
 
 Stories do not authorise unsupported clinical claims.
 
-## Future considerations
+## Dependencies
+
+This document depends on approved clinical governance, privacy and security policies, and the related requirements in this directory.
+
+## Future enhancements
 
 Add accessibility and regional-language stories as markets expand.

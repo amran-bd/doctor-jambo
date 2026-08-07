@@ -12,6 +12,10 @@ The ten core use cases for the first product roadmap.
 
 Patient, doctor, administrator, AI service, voice service, and health journey agent.
 
+## Detailed description
+
+This document defines the enterprise healthcare platform baseline for its stated scope. It is read with the SRS and the business foundation, and remains subject to clinical, privacy, security, and operational governance.
+
 ## Requirements
 
 ```mermaid
@@ -38,6 +42,10 @@ Each use case has an authorised actor and a defined outcome.
 
 Emergency cases require guidance to appropriate emergency channels.
 
-## Future considerations
+## Dependencies
+
+This document depends on approved clinical governance, privacy and security policies, and the related requirements in this directory.
+
+## Future enhancements
 
 Extend the model for caregiver delegation and partner systems.

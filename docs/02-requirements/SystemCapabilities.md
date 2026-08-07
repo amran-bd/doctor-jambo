@@ -12,6 +12,10 @@ Identity, care access, AI assistance, voice interaction, workflow orchestration,
 
 Patients, doctors, administrators, operators, and integrated services.
 
+## Detailed description
+
+This document defines the enterprise healthcare platform baseline for its stated scope. It is read with the SRS and the business foundation, and remains subject to clinical, privacy, security, and operational governance.
+
 ## Requirements
 
 - Identity and consent management.
@@ -30,6 +34,10 @@ Capabilities can be released independently behind approved policies.
 
 Clinical and AI capabilities require governance controls.
 
-## Future considerations
+## Dependencies
+
+This document depends on approved clinical governance, privacy and security policies, and the related requirements in this directory.
+
+## Future enhancements
 
 Add interoperability and population-health capabilities after validation.
