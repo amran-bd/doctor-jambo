@@ -12,6 +12,10 @@ Applications, APIs, data, AI tools, agents, integrations, and operations.
 
 Users, administrators, security teams, services, and auditors.
 
+## Detailed description
+
+This document defines the enterprise healthcare platform baseline for its stated scope. It is read with the SRS and the business foundation, and remains subject to clinical, privacy, security, and operational governance.
+
 ## Requirements
 
 - Strong authentication and role-based, least-privilege authorisation shall protect sensitive actions.
@@ -29,6 +33,10 @@ Threat modelling and security review are part of delivery.
 
 Security controls must meet applicable healthcare and privacy obligations.
 
-## Future considerations
+## Dependencies
+
+This document depends on approved clinical governance, privacy and security policies, and the related requirements in this directory.
+
+## Future enhancements
 
 Introduce continuous control monitoring and advanced anomaly detection.

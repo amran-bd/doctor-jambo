@@ -12,6 +12,10 @@ Registration, AI and voice consultations, report explanation, doctor workflows, 
 
 Patient, doctor, administrator, AI/voice services, notification service, and agent.
 
+## Detailed description
+
+This document defines the enterprise healthcare platform baseline for its stated scope. It is read with the SRS and the business foundation, and remains subject to clinical, privacy, security, and operational governance.
+
 ## Requirements
 
 | Use case | Primary actor | Success outcome |
@@ -27,6 +31,17 @@ Patient, doctor, administrator, AI/voice services, notification service, and age
 | Notification workflow | System | Correct, consent-aware message is delivered or recoverably failed. |
 | Admin management | Administrator | Authorised configuration or verification change is audited. |
 
+```mermaid
+flowchart LR
+  D[Doctor opens consultation] --> C[Authorised patient context]
+  C --> A[Doctor Copilot drafts summary]
+  A --> S[Safety and grounding checks]
+  S --> R[Doctor reviews and edits]
+  R --> X{Approved?}
+  X -- Yes --> N[Save consultation note]
+  X -- No --> Z[Discard or regenerate]
+```
+
 ## Assumptions
 
 Alternate flows, data fields, and service contracts will be refined per use case.
@@ -35,6 +50,10 @@ Alternate flows, data fields, and service contracts will be refined per use case
 
 No automated workflow may bypass configured human approval.
 
-## Future considerations
+## Dependencies
+
+This document depends on approved clinical governance, privacy and security policies, and the related requirements in this directory.
+
+## Future enhancements
 
 Expand each row into fully dressed use-case specifications.

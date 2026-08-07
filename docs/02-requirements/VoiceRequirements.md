@@ -12,6 +12,10 @@ Speech-to-text, language detection, translation, text-to-speech, and real-time c
 
 Patients, doctors, voice services, translators, and AI safety services.
 
+## Detailed description
+
+This document defines the enterprise healthcare platform baseline for its stated scope. It is read with the SRS and the business foundation, and remains subject to clinical, privacy, security, and operational governance.
+
 ## Requirements
 
 - The system shall capture speech only with clear user indication and applicable consent.
@@ -39,6 +43,10 @@ Users can review key transcripts before they drive consequential actions.
 
 Voice data is sensitive and subject to consent, retention, and vendor controls.
 
-## Future considerations
+## Dependencies
+
+This document depends on approved clinical governance, privacy and security policies, and the related requirements in this directory.
+
+## Future enhancements
 
 Improve regional dialect support and accessibility modes.

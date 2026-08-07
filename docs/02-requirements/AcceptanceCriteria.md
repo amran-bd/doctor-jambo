@@ -12,6 +12,10 @@ Functional, safety, privacy, AI, voice, and agent behaviours.
 
 Product owners, QA, clinicians, security reviewers, and operations teams.
 
+## Detailed description
+
+This document defines the enterprise healthcare platform baseline for its stated scope. It is read with the SRS and the business foundation, and remains subject to clinical, privacy, security, and operational governance.
+
 ## Requirements
 
 - **Patient registration:** Given valid required details, when a patient completes verification, then an account is created and the event is audited.
@@ -29,6 +33,10 @@ Test data and approved safety scenarios are available.
 
 Acceptance cannot waive legal, privacy, or clinical-governance review.
 
-## Future considerations
+## Dependencies
+
+This document depends on approved clinical governance, privacy and security policies, and the related requirements in this directory.
+
+## Future enhancements
 
 Automate acceptance evidence in delivery pipelines.
